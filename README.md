@@ -16,7 +16,6 @@
 - [Advanced Customizations](#advanced-customizations)
   - [Texture Pack](#texture-pack)
   - [Custom UI](#custom-ui)
-  - [Custom Mod](#custom-mod)
 - [FAQs](#faqs)
 - [License](#license)
 ## Installation
@@ -122,8 +121,6 @@ export {t as n, n as t};
 #### Examples Packs
 
 ### Custom UI
-
-### Custom Mod
 
 ## FAQs
 **Is it safe to use?**
