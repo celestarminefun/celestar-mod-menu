@@ -6,4 +6,9 @@
 ![](https://img.shields.io/github/last-commit/celestarminefun/celestar-client)
 [![](https://img.shields.io/discord/1471833466994954393?color=blue&label=discord)](https://discord.gg/qPefeST9Us)
 
+## Table of Contents
+- [Installation](#installation)
+
+## Installation
+
 </div>
