@@ -14,7 +14,7 @@
 ## Installation
 The mod menu is available for Windows & Linux through [Tampermonkey Extension]([https://www.tampermonkey.net/](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)) on various browsers and MacOS & IpadOS through [Userscripts Extension](https://apps.apple.com/us/app/userscripts/id1463298887) on Safari. Below is an installation guide for these extensions.
 
-### Tampermonkey
+### Tampermonkey (Windows & Linux)
 <table>
   <tr>
     <td align="center">
@@ -32,10 +32,14 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension]([
       <b>1.</b> Download the <a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey Extension</a> through the Chrome Web Store.
     </td>
     <td valign="top">
-      <b>2.</b> Once it is installed, click on the puzzle icon, the 3 dot icons, then click on <b>"Manage Extension"</b>.
+      <b>2.</b> Once it is installed, click on the puzzle icon -> 3 dots -> <b>"Manage Extension"</b>.
     </td>
     <td valign="top">
       <b>3.</b> Ensure that <b>"Allow User Scripts"</b> is enabled.
     </td>
   </tr>
 </table>
+
+### Userscripts (MacOS)
+
+### Userscripts (IpadOS)
