@@ -12,6 +12,11 @@
 - [Installation](#installation)
   - [Extension Installation](#extension-installation)
   - [Mod Menu Installation](#mod-menu-installation)
+- [HUD Overview](#hud-overview)
+- [Advanced Customizations](#advanced-customizations)
+  - [Texture Pack](#texture-pack)
+  - [Custom UI](#custom-ui)
+- [FAQs](#faqs)
 ## Installation
 The mod menu is available for Windows & Linux through [Tampermonkey Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on various browsers and MacOS & IpadOS through [Userscripts Extension](https://apps.apple.com/us/app/userscripts/id1463298887) on Safari. Below is an installation guide for these extensions and the mod menu.
 
@@ -49,3 +54,5 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
 
 ### Mod Menu Installation
 To install the mod menu, click [here](http://celestarminefun.github.io/celestar-mod-menu-v2.user.js). You will be directed to the install screen of your extension, confirm the installation and you are good to go.
+
+#### Copyright © 2026 Celestar
