@@ -12,4 +12,5 @@
 - [Installation](#installation)
 
 ## Installation
+The mod menu is available for Windows & Linux through Tampermonkey Extension on various browsers and MacOS & IpadOs through [Userscripts Extension](https://apps.apple.com/us/app/userscripts/id1463298887) on Safari
 
