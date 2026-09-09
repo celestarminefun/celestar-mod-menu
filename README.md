@@ -8,7 +8,7 @@
 
 </div>
 
-## Table of Contents
+# Table of Contents
 - [Installation](#installation)
   - [Extension Installation](#extension-installation)
   - [Mod Menu Installation](#mod-menu-installation)
