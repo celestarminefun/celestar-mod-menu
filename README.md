@@ -101,6 +101,24 @@ The format is simply `filename.png>data:image/png;base64,<image-data>`
 > Correct: `Snow%20YN-BHso_EjS.png>data:image/png;base64,iVBORw0KGgoAAA...`\
 > Wrong: `Snow%20YN-BHso_EjS.png > data:image/png;base64,iVBORw0KGgoAAA...`
 
+#### Getting Filename
+The filename on the left must match exactly with the game asset's filename. They can be found using Developer Tools under the Sources tab.
+
+For example, in `Apple Bark-CHsD56wi.js`
+```js
+import {n as e} from "./chunk-DuZBl320.js";
+var t = e({
+    default: () => n
+}, 1)
+  , n = `/assets/Apple%20Bark-CfnbY4G5.png`;
+export {t as n, n as t};
+```
+`Apple%20Bark-CfnbY4G5.png` will be the texture filename for the Apple Bark texture.
+
+#### Tools
+- [Lospec Pixel Art Scaler](https://lospec.com/pixel-art-scaler/) - For resizing textures to 32 x 32 pixels
+- [shadcn.io PNG to Data URI Converter](https://www.shadcn.io/tools/png-to-data-uri) - To convert your texture image to Data URI
+
 ### Custom UI
 
 ### Custom Mod
