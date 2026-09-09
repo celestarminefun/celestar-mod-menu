@@ -10,11 +10,14 @@
 
 ## Table of Contents
 - [Installation](#installation)
-
+  - [Extension Installation](#extension-installation)
+  - [Mod Menu Installation](#mod-menu-installation)
 ## Installation
-The mod menu is available for Windows & Linux through [Tampermonkey Extension]([https://www.tampermonkey.net/](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)) on various browsers and MacOS & IpadOS through [Userscripts Extension](https://apps.apple.com/us/app/userscripts/id1463298887) on Safari. Below is an installation guide for these extensions.
+The mod menu is available for Windows & Linux through [Tampermonkey Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on various browsers and MacOS & IpadOS through [Userscripts Extension](https://apps.apple.com/us/app/userscripts/id1463298887) on Safari. Below is an installation guide for these extensions and the mod menu.
 
-### Tampermonkey (Windows & Linux)
+### Extension Installation
+
+#### Tampermonkey (Windows & Linux)
 <table>
   <tr>
     <td align="center">
@@ -40,6 +43,9 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension]([
   </tr>
 </table>
 
-### Userscripts (MacOS)
+#### Userscripts (MacOS)
 
-### Userscripts (IpadOS)
+#### Userscripts (IpadOS)
+
+### Mod Menu Installation
+To install the mod menu, click [here](http://celestarminefun.github.io/celestar-mod-menu-v2.user.js). You will be directed to the install screen of your extension, confirm the installation and you are good to go.
