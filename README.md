@@ -17,3 +17,5 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
 ### Tampermonkey
 
 ![](/etc/1.png)
+![](/etc/2.png)
+![](/etc/3.png)
