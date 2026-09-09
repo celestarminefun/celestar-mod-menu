@@ -19,9 +19,11 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension]([
 1. Download the [extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) through the Chrome Web Store.
 
 ![](/etc/1.png)
+
 2. Once it is installed, click on the puzzle icon, the 3 dot icons, then click on "Manage Extension"
 
 ![](/etc/2.png)
+
 3. Ensure that "Allow User Scripts" is enabled
 
 ![](/etc/3.png)
