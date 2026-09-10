@@ -45,7 +45,7 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
       <b>1.</b> Download the <a href="https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Tampermonkey Extension</a> through the Chrome Web Store.
     </td>
     <td valign="top">
-      <b>2.</b> Once it is installed, click on the puzzle icon -> 3 dots -> <b>"Manage Extension"</b>.
+      <b>2.</b> Once it is installed, click on the puzzle icon >- 3 dots -> <b>"Manage Extension"</b>.
     </td>
     <td valign="top">
       <b>3.</b> Ensure that <b>"Allow User Scripts"</b> is enabled.
@@ -54,8 +54,40 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
 </table>
 
 #### Userscripts (MacOS)
+<table>
+  <tr>
+    <td valign="top">
+      <b>1.</b> Download the <a href="https://apps.apple.com/us/app/userscripts/id1463298887">Userscripts Extension</a> through the App Store.
+    </td>
+    <td valign="top">
+      <b>2.</b> Once it is installed, open Safari, then click on Safari (top of your screen) -> Settings -> Extensions
+    </td>
+    <td valign="top">
+      <b>3.</b> Ensure that <b>"Userscripts"</b> is enabled.
+    </td>
+    <td valign="top">
+      <b>4.</b> Ensure that <b>"Always Allow on Every Website"</b> is enabled on the right side.
+    </td>
+  </tr>
+</table>
 
 #### Userscripts (iOS / iPadOS)
+<table>
+  <tr>
+    <td valign="top">
+      <b>1.</b> Download the <a href="https://apps.apple.com/us/app/userscripts/id1463298887">Userscripts Extension</a> through the App Store.
+    </td>
+    <td valign="top">
+      <b>2.</b> Once it is installed, open Settings (Apps > Safari > Extensions)
+    </td>
+    <td valign="top">
+      <b>3.</b> Ensure that <b>"Userscripts"</b> is on.
+    </td>
+    <td valign="top">
+      <b>4.</b> Ensure that <b>"Always Allow"</b> is enabled.
+    </td>
+  </tr>
+</table>
 
 ### Mod Menu Installation
 To install the mod menu, click [here](http://celestarminefun.github.io/celestar-mod-menu-v2.user.js). You will be directed to the install screen of your extension, confirm the installation and you are good to go.
@@ -75,11 +107,11 @@ To install the mod menu, click [here](http://celestarminefun.github.io/celestar-
 ### Texture Pack
 Texture packs requires some technical knowledge. This includes working with `.txt` files, game asset filenames, and Data URI image data.
 
-#### How they work
+#### How it works
 Texture packs uses a mapping system, with each line in the `.txt` representing one texture override:\
 `<Original Game Texture Filename> > <New Data URI>`
 
-Sample:
+Example:
 ```
 Snow%20YN-BHso_EjS.png>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAOklEQVR4AezXsQkAQAgDwMf95/zGIXQES0EukD5cl/iZtdl4yzGAAAECBAgQIECAAAECBAjcF5jOdwMAAP//bTIkQwAAAAZJREFUAwBnB3eh1HPOHgAAAABJRU5ErkJggg==
 ```
@@ -112,15 +144,64 @@ var t = e({
   , n = `/assets/Apple%20Bark-CfnbY4G5.png`;
 export {t as n, n as t};
 ```
-`Apple%20Bark-CfnbY4G5.png` will be the texture filename for the Apple Bark texture.
+Hence, `Apple%20Bark-CfnbY4G5.png` will be the texture filename for the Apple Bark texture.
 
 #### Tools
-- [Lospec Pixel Art Scaler](https://lospec.com/pixel-art-scaler/) - For resizing textures to 32 x 32 pixels
-- [shadcn.io PNG to Data URI Converter](https://www.shadcn.io/tools/png-to-data-uri) - To convert your texture image to Data URI
+- [Lospec Pixel Art Scaler](https://lospec.com/pixel-art-scaler/) - For resizing textures to 32 x 32 pixels.
+- [shadcn.io PNG to Data URI Converter](https://www.shadcn.io/tools/png-to-data-uri) - To convert your texture image to Data URI.
 
 #### Examples Packs
+You can view some examples packs [here](https://github.com/celestarminefun/celestarminefun.github.io/tree/main/client/texturepacks).
+
+<hr>
 
 ### Custom UI
+Custom UI allows you to customize the look of MineFun.io using CSS. It requires basic understanding of CSS which we will be going through. They are purely cosmetics and does not affect how the game runs.
+
+#### How it works
+Custom UI can be imported as a `.css` file through the Custom UI mod which will override the game's interface.
+
+Example:
+```css
+.slot {
+    background: #ff0000 !important
+}
+```
+This changes the background color of the inventory slots to red.
+
+#### CSS Basics
+Custom UI uses the normal CSS syntax. A basic rule looks like:
+```css
+selector {
+    property: value;
+```
+- **Selector** - Determines which elements are overriden eg. `.slot` overrides inventory slots.
+- **Property** - Determines what you want to change eg `background` changes the background.
+- **Value** - Determines how it should look eg. `#ff0000` for red.
+
+#### Targetting Specific Elements
+You can target elements using classes or IDs.
+
+For example, if an element has:
+```html
+<div class="menu"></div>
+```
+you can target it with:
+```css
+.menu {
+    background: #ff0000 !important
+}
+```
+Or with IDs:
+```html
+<div id="settings"></div>
+```
+you can target it with:
+```css
+#settings {
+    background: #ff0000 !important
+}
+```
 
 ## FAQs
 **Is it safe to use?**
