@@ -105,7 +105,7 @@ To install the mod menu, click [here](http://celestarminefun.github.io/celestar-
 ## Advanced Customizations
 
 ### Texture Pack
-Texture packs requires some technical knowledge. This includes working with `.txt` files, game asset filenames, and Data URI image data.
+Creating texture packs requires some technical knowledge. This includes working with `.txt` files, game asset filenames, and Data URI image data.
 
 #### How it works
 Texture packs uses a mapping system, with each line in the `.txt` representing one texture override:\
