@@ -6,6 +6,19 @@
 ![](https://img.shields.io/github/last-commit/celestarminefun/celestar-client)
 [![](https://img.shields.io/discord/1471833466994954393?color=blue&label=discord)](https://discord.gg/qPefeST9Us)
 
+[![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
+[![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
+[![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=firefoxbrowser&logoColor=white)](#)
+[![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?logo=GoogleChrome&logoColor=white)](#)
+[![Microsoft Edge](https://custom-icon-badges.demolab.com/badge/Microsoft%20Edge-2771D8?logo=edge-white&logoColor=white)](#)
+[![Opera GX](https://img.shields.io/badge/Opera%20GX-EE2950?logo=operagx&logoColor=fff)](#)
+[![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)](#)
+[![iOS](https://img.shields.io/badge/iOS-000000?&logo=apple&logoColor=white)](#)
+[![iPadOS](https://img.shields.io/badge/iPadOS-000000?&logo=apple&logoColor=white)](#)
+[![Safari](https://img.shields.io/badge/Safari-006CFF?logo=safari&logoColor=fff)](#)
+
+
 </div>
 
 ## Table of Contents
@@ -129,11 +142,11 @@ This tells the mod to override `Snow%20YN-BHso_EjS.png` in the game's assets wit
 #### File Format
 The format is simply `filename.png>data:image/png;base64,<image-data>`
 
-> [!IMPORTANT]
+> [!WARNING]
 >
 > There must be no spaces around the `>`\
-> Correct: `Snow%20YN-BHso_EjS.png>data:image/png;base64,iVBORw0KGgoAAA...`\
-> Wrong: `Snow%20YN-BHso_EjS.png > data:image/png;base64,iVBORw0KGgoAAA...`
+> - Correct: `Snow%20YN-BHso_EjS.png>data:image/png;base64,iVBORw0KGgoAAA...`
+> - Wrong: `Snow%20YN-BHso_EjS.png > data:image/png;base64,iVBORw0KGgoAAA...`
 
 #### Getting Filename
 The filename on the left must match exactly with the game asset's filename. They can be found using Developer Tools (`F12` on Windows/Linux, `⌘ + Option + I` for MacOS) under the Sources tab.
