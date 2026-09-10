@@ -16,6 +16,7 @@
 - [Advanced Customizations](#advanced-customizations)
   - [Texture Pack](#texture-pack)
   - [Custom UI](#custom-ui)
+- [Reporting Issues](#reporting-issues)
 - [FAQs](#faqs)
 - [License](#license)
 ## Installation
@@ -241,12 +242,18 @@ you can write:
 #### Custom UI Examples
 You can view some custom UI examples [here](https://github.com/celestarminefun/celestarminefun.github.io/tree/main/client/customui).
 
+## Reporting Issues
+If you encounter any issues while using the mod menu, please open an issue here in the repository or through our #reports forum channel on our discord server. Please provide as much detail as possible so that finding and fixing the issue will be easier for us.
+
 ## FAQs
 **Is it safe to use?**
 > Yes, very safe. We do not collect any information or data for you. The code is open-sourced, allowing you to view it at any time.
 
 **Why should I use Celestar Mod Menu?**
 > Celestar Mod Menu v2 is the #1 mod menu in MineFun.io, with over 29 high-quality mods and loads of customizations. We ensure that you get the most premium experience while playing MineFun.io, making the game much more enjoyable and customizable. We do things that regular MineFun.io is not able to.
+
+**Is it available on mobile?**
+> As of v2.0.0, it is downloadable on mobile. However, it is not fully supported hence issues may arise often on usage.
 
 ## License
 ### Copyright © 2026 Celestar. All Rights Reserved.
