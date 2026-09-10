@@ -151,8 +151,8 @@ Hence, `Apple%20Bark-CfnbY4G5.png` will be the texture filename for the Apple Ba
 - [Lospec Pixel Art Scaler](https://lospec.com/pixel-art-scaler/) - For resizing textures to 32 x 32 pixels.
 - [shadcn.io PNG to Data URI Converter](https://www.shadcn.io/tools/png-to-data-uri) - To convert your texture image to Data URI.
 
-#### Examples Packs
-You can view some examples packs [here](https://github.com/celestarminefun/celestarminefun.github.io/tree/main/client/texturepacks).
+#### Texture Examples
+You can view some texture pack examples [here](https://github.com/celestarminefun/celestarminefun.github.io/tree/main/client/texturepacks).
 
 ### Custom UI
 Custom UI allows you to customize the look of MineFun.io using CSS. It requires basic understanding of CSS which we will be going through. They are purely cosmetics and does not affect how the game runs.
@@ -234,6 +234,12 @@ you can write:
     background: #ff0000 !important;
 }
 ```
+
+#### Tools
+- [w3schools CSS Documentation](https://www.w3schools.com/css/) - A more in-depth documentation of CSS
+
+### Custom UI Examples
+You can view some custom UI examples [here](https://github.com/celestarminefun/celestarminefun.github.io/tree/main/client/customui).
 
 ## FAQs
 **Is it safe to use?**
