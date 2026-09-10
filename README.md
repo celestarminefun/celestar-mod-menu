@@ -142,7 +142,8 @@ var t = e({
     default: () => n
 }, 1)
   , n = `/assets/Apple%20Bark-CfnbY4G5.png`;
-export {t as n, n as t};
+export {t as n, n a
+t};
 ```
 Hence, `Apple%20Bark-CfnbY4G5.png` will be the texture filename for the Apple Bark texture.
 
@@ -153,8 +154,6 @@ Hence, `Apple%20Bark-CfnbY4G5.png` will be the texture filename for the Apple Ba
 #### Examples Packs
 You can view some examples packs [here](https://github.com/celestarminefun/celestarminefun.github.io/tree/main/client/texturepacks).
 
-<hr>
-
 ### Custom UI
 Custom UI allows you to customize the look of MineFun.io using CSS. It requires basic understanding of CSS which we will be going through. They are purely cosmetics and does not affect how the game runs.
 
@@ -164,7 +163,7 @@ Custom UI can be imported as a `.css` file through the Custom UI mod which will 
 Example:
 ```css
 .slot {
-    background: #ff0000 !important
+    background: #ff0000 !important;
 }
 ```
 This changes the background color of the inventory slots to red.
@@ -189,7 +188,7 @@ For example, if an element has:
 you can target it with:
 ```css
 .menu {
-    background: #ff0000 !important
+    background: #ff0000 !important;
 }
 ```
 Or with IDs:
@@ -199,7 +198,40 @@ Or with IDs:
 you can target it with:
 ```css
 #settings {
-    background: #ff0000 !important
+    background: #ff0000 !important;
+}
+```
+
+#### Combining Selectors
+You can target multiple elements with one rule:
+```css
+.slot,
+.menu {
+    background: #ff0000 !important;
+}
+```
+and also target an element inside another element:
+```css
+.menu button {
+    background: #ff0000 !important;
+}
+```
+
+> [!IMPORTANT]
+>
+> Sometimes the game's CSS may have a higher priority than your Custom UI CSS, hence it is strongly encouraged to use `!important` at the end of each property to ensure your CSS overrides the game's CSS.
+
+#### Getting Elements
+You can use Developer Tools to find which selector to use. Under the Elements tab, it will show every element. The game's interface is under the `app` element. 
+
+For example, if Developer Tools shows:
+```html
+<div class="friends-list"></div>
+```
+you can write:
+```css
+.friends-list {
+    background: #ff0000 !important;
 }
 ```
 
