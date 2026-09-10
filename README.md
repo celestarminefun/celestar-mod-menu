@@ -1,7 +1,7 @@
 <div align="center">
   
 # <img src="https://imgur.com/cE4wLMW.png" width="30" height="30" alt="Celestar Client"/> Celestar Mod Menu v2
-### A 100% safe, feature-rich, open-sourced, custom Mod Menu for MineFun.io by thetalkingcat
+### A safe, feature-rich, source-available, custom Mod Menu for MineFun.io by thetalkingcat
 
 ![](https://img.shields.io/github/last-commit/celestarminefun/celestar-client)
 [![](https://img.shields.io/discord/1471833466994954393?color=blue&label=discord)](https://discord.gg/qPefeST9Us)
@@ -104,12 +104,14 @@ To install the mod menu, click [here](http://celestarminefun.github.io/celestar-
 6. **Mod Options Button** - View settings page of a mod.
 
 ## Advanced Customizations
+> [!NOTE]
+> Advanced customizations require prior understanding of CSS, game assets, and browsing Developer Tools. Developer Tools can only be accessed on laptop devices.
 
 ### Texture Pack
-Creating texture packs requires some technical knowledge. This includes working with `.txt` files, game asset filenames, and Data URI image data.
+Texture packs allows you to customise the block textures and item images in MineFun.io. It requires technical knowledge of `.txt` files, game asset's filenames and Data URI image data. Using texture packs for X-ray is strictly prohibited and is a bannable offense in game.
 
 #### How it works
-Texture packs uses a mapping system, with each line in the `.txt` representing one texture override:\
+Texture packs use a mapping system, with each line in the `.txt` representing one texture override:\
 `<Original Game Texture Filename> > <New Data URI>`
 
 Example:
@@ -122,7 +124,7 @@ This tells the mod to override `Snow%20YN-BHso_EjS.png` in the game's assets wit
 #### Requirements
 - A `.txt` file
 - The exact filename of the texture from the game's assets
-- The Data URI of the new texture which must be 32 x 32 pixels
+- The Data URI of the new texture. The image must be 32 x 32 pixels.
 
 #### File Format
 The format is simply `filename.png>data:image/png;base64,<image-data>`
@@ -134,7 +136,7 @@ The format is simply `filename.png>data:image/png;base64,<image-data>`
 > Wrong: `Snow%20YN-BHso_EjS.png > data:image/png;base64,iVBORw0KGgoAAA...`
 
 #### Getting Filename
-The filename on the left must match exactly with the game asset's filename. They can be found using Developer Tools under the Sources tab.
+The filename on the left must match exactly with the game asset's filename. They can be found using Developer Tools (`F12` on Windows/Linux, `⌘ + Option + I` for MacOS) under the Sources tab.
 
 For example, in `Apple Bark-CHsD56wi.js`
 ```js
@@ -174,12 +176,13 @@ Custom UI uses the normal CSS syntax. A basic rule looks like:
 ```css
 selector {
     property: value;
+}
 ```
 - **Selector** - Determines which elements are overriden eg. `.slot` overrides inventory slots.
 - **Property** - Determines what you want to change eg `background` changes the background.
 - **Value** - Determines how it should look eg. `#ff0000` for red.
 
-#### Targetting Specific Elements
+#### Targeting Specific Elements
 You can target elements using classes or IDs.
 
 For example, if an element has:
@@ -223,7 +226,7 @@ and also target an element inside another element:
 > Sometimes the game's CSS may have a higher priority than your Custom UI CSS, hence it is strongly encouraged to use `!important` at the end of each property to ensure your CSS overrides the game's CSS.
 
 #### Getting Elements
-You can use Developer Tools to find which selector to use. Under the Elements tab, it will show every element. The game's interface is under the `app` element. 
+You can use Developer Tools (`Ctrl + Shift + C` on Windows/Linux, `⌘ + Option + C` for MacOS) to find which selector to use. Under the Elements tab, it will show every element. The game's interface is under the `app` element. 
 
 For example, if Developer Tools shows:
 ```html
@@ -247,10 +250,10 @@ If you encounter any issues while using the mod menu, please open an issue here 
 
 ## FAQs
 **Is it safe to use?**
-> Yes, very safe. We do not collect any information or data for you. The code is open-sourced, allowing you to view it at any time.
+> Yes, very safe. We do not intentionally collect any information or data from you. The source code is publicly available for transparency, allowing you to inspect it at any time.
 
 **Why should I use Celestar Mod Menu?**
-> Celestar Mod Menu v2 is the #1 mod menu in MineFun.io, with over 29 high-quality mods and loads of customizations. We ensure that you get the most premium experience while playing MineFun.io, making the game much more enjoyable and customizable. We do things that regular MineFun.io is not able to.
+> Celestar Mod Menu v2 is the #1 mod menu in MineFun.io, with over 28 high-quality mods and loads of customizations. We ensure that you get the most premium experience while playing MineFun.io, making the game much more enjoyable and customizable. We do things that regular MineFun.io is not able to.
 
 **Is it available on mobile?**
 > As of v2.0.0, it is downloadable on mobile. However, it is not fully supported hence issues may arise often on usage.
