@@ -33,7 +33,9 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
 
 > [!NOTE]
 >
-> For MacOS users, do not use Safari browser. The mod menu is almost not functional for mobile users. We are still looking for ways to bring you this menu, but please be patient and give us time.
+> For MacOS users, do not use Safari browser. 
+> 
+> For mobile users, the mod menu is almost not functional. We are still looking for ways to bring you this menu, but please be patient and give us time.
 
 ### Extension Installation
 
