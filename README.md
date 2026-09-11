@@ -33,7 +33,7 @@
 - [FAQs](#faqs)
 - [License](#license)
 ## Installation
-The mod menu is available for Windows & Linux through [Tampermonkey Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on various browsers and MacOS & iOS (iPadOS) through [Userscripts Extension](https://apps.apple.com/us/app/userscripts/id1463298887) on Safari. Below is an installation guide for these extensions and the mod menu.
+The mod menu is available for Windows & Linux through [Tampermonkey Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on various browsers and MacOS & iOS (iPadOS) through [Stay Extension](https://apps.apple.com/sg/app/stay-for-safari/id1591620171) on Safari. Below is an installation guide for these extensions and the mod menu.
 
 > [!NOTE]
 >
@@ -67,17 +67,17 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
   </tr>
 </table>
 
-#### Userscripts (MacOS)
+#### Stay (MacOS)
 <table>
   <tr>
     <td valign="top">
-      <b>1.</b> Download the <a href="https://apps.apple.com/us/app/userscripts/id1463298887">Userscripts Extension</a> through the App Store.
+      <b>1.</b> Download the <a href="https://apps.apple.com/sg/app/stay-for-safari/id1591620171">Stay Extension</a> through the App Store.
     </td>
     <td valign="top">
       <b>2.</b> Once it is installed, open Safari, then click on Safari (top of your screen) -> Settings -> Extensions
     </td>
     <td valign="top">
-      <b>3.</b> Ensure that <b>"Userscripts"</b> is enabled.
+      <b>3.</b> Ensure that <b>"Stay"</b> is enabled.
     </td>
     <td valign="top">
       <b>4.</b> Ensure that <b>"Always Allow on Every Website"</b> is enabled on the right side.
@@ -85,17 +85,17 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
   </tr>
 </table>
 
-#### Userscripts (iOS / iPadOS)
+#### Stay (iOS / iPadOS)
 <table>
   <tr>
     <td valign="top">
-      <b>1.</b> Download the <a href="https://apps.apple.com/us/app/userscripts/id1463298887">Userscripts Extension</a> through the App Store.
+      <b>1.</b> Download the <a href="https://apps.apple.com/us/app/userscripts/id1463298887">Stay Extension</a> through the App Store.
     </td>
     <td valign="top">
       <b>2.</b> Once it is installed, open Settings (Apps > Safari > Extensions)
     </td>
     <td valign="top">
-      <b>3.</b> Ensure that <b>"Userscripts"</b> is on.
+      <b>3.</b> Ensure that <b>"Stay"</b> is on.
     </td>
     <td valign="top">
       <b>4.</b> Ensure that <b>"Always Allow"</b> is enabled.
