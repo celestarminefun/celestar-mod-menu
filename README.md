@@ -7,6 +7,7 @@
 [![](https://img.shields.io/discord/1471833466994954393?color=blue&label=discord)](https://discord.gg/qPefeST9Us)
 
 [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](#)
+[![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)](#)
 [![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
 [![Brave](https://img.shields.io/badge/Brave-FB542B?logo=Brave&logoColor=white)](#)
 [![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=firefoxbrowser&logoColor=white)](#)
@@ -32,7 +33,7 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
 
 > [!NOTE]
 >
-> The mod menu is almost not functional for mobile users. We are still looking for ways to bring you this menu, but please be patient and give us time.
+> For MacOS users, do not use Safari browser. The mod menu is almost not functional for mobile users. We are still looking for ways to bring you this menu, but please be patient and give us time.
 
 ### Extension Installation
 
