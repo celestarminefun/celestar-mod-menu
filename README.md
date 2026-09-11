@@ -13,11 +13,6 @@
 [![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?logo=GoogleChrome&logoColor=white)](#)
 [![Microsoft Edge](https://custom-icon-badges.demolab.com/badge/Microsoft%20Edge-2771D8?logo=edge-white&logoColor=white)](#)
 [![Opera GX](https://img.shields.io/badge/Opera%20GX-EE2950?logo=operagx&logoColor=fff)](#)
-[![macOS](https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=F0F0F0)](#)
-[![iOS](https://img.shields.io/badge/iOS-000000?&logo=apple&logoColor=white)](#)
-[![iPadOS](https://img.shields.io/badge/iPadOS-000000?&logo=apple&logoColor=white)](#)
-[![Safari](https://img.shields.io/badge/Safari-006CFF?logo=safari&logoColor=fff)](#)
-
 
 </div>
 
@@ -33,11 +28,11 @@
 - [FAQs](#faqs)
 - [License](#license)
 ## Installation
-The mod menu is available for Windows & Linux through [Tampermonkey Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on various browsers and MacOS & iOS (iPadOS) through [Stay Extension](https://apps.apple.com/sg/app/stay-for-safari/id1591620171) on Safari. Below is an installation guide for these extensions and the mod menu.
+The mod menu is available for Windows & Linux through [Tampermonkey Extension](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) on various browsers. Below is an installation guide for the extension and the mod menu.
 
 > [!NOTE]
 >
-> The mod menu is not fully functional and supportive for mobile users, hence issues may arise frequently. It is still being worked on and improvements will be made over time. 
+> The mod menu is almost not functional for mobile users. We are still looking for ways to bring you this menu, but please be patient and give us time.
 
 ### Extension Installation
 
@@ -63,42 +58,6 @@ The mod menu is available for Windows & Linux through [Tampermonkey Extension](h
     </td>
     <td valign="top">
       <b>3.</b> Ensure that <b>"Allow User Scripts"</b> is enabled.
-    </td>
-  </tr>
-</table>
-
-#### Stay (MacOS)
-<table>
-  <tr>
-    <td valign="top">
-      <b>1.</b> Download the <a href="https://apps.apple.com/sg/app/stay-for-safari/id1591620171">Stay Extension</a> through the App Store.
-    </td>
-    <td valign="top">
-      <b>2.</b> Once it is installed, open Safari, then click on Safari (top of your screen) -> Settings -> Extensions
-    </td>
-    <td valign="top">
-      <b>3.</b> Ensure that <b>"Stay"</b> is enabled.
-    </td>
-    <td valign="top">
-      <b>4.</b> Ensure that <b>"Always Allow on Every Website"</b> is enabled on the right side.
-    </td>
-  </tr>
-</table>
-
-#### Stay (iOS / iPadOS)
-<table>
-  <tr>
-    <td valign="top">
-      <b>1.</b> Download the <a href="https://apps.apple.com/us/app/userscripts/id1463298887">Stay Extension</a> through the App Store.
-    </td>
-    <td valign="top">
-      <b>2.</b> Once it is installed, open Settings (Apps > Safari > Extensions)
-    </td>
-    <td valign="top">
-      <b>3.</b> Ensure that <b>"Stay"</b> is on.
-    </td>
-    <td valign="top">
-      <b>4.</b> Ensure that <b>"Always Allow"</b> is enabled.
     </td>
   </tr>
 </table>
